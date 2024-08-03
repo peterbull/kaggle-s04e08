@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "kaggle-s04e08"
+version = "0.1.0"
+description = ""
+authors = ["peter bull <petercbull@gmail.com>"]
+readme = ""
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastkaggle = "^0.0.8"
+ipywidgets = "^8.1.3"
+kaggle = "^1.6.17"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+polars = "^1.4.0"
+duckdb = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
